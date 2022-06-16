@@ -76,6 +76,7 @@ body {
   font-weight: 700;
   color: #2d3248;
   margin-top: 20px;
+  margin-bottom: 6px;
 }
 
 .profile-component .profile-card .card-body .user-data span {
