@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  background-color: #2d3248;
+  color: white;
+  padding: 8px 0;
+}
+
+.attribution a {
+  color: #19a2ae;
+  font-weight: 700;
+}
+
+.profile-component {
+  height: 98vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #19a2ae;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.profile-component .profile-card {
+  background-color: white;
+  border-radius: 12px;
+}
+
+.profile-component .profile-card .cover-img {
+  border-radius: 12px 12px 0 0;
+  width: 340px;
+}
+
+.profile-component .profile-card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile-component .profile-card .card-body .profile-img {
+  margin-top: -50px;
+  border-radius: 50%;
+  border: 5px solid white;
+  width: 100px;
+  height: 100px;
+}
+
+.profile-component .profile-card .card-body .user-data {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.profile-component .profile-card .card-body .user-data span {
+  font-weight: 400;
+  color: #6a6f81;
+  margin-left: 12px;
+}
+
+.profile-component .profile-card .card-body .address {
+  font-weight: 400;
+  color: #6a6f81;
+  margin-top: 0px;
+}
+
+.profile-component .profile-card .card-body .divider {
+  width: 100%;
+  margin: 20px 0;
+  border-top: 1px solid rgba(150, 150, 150, 0.35);
+}
+
+.profile-component .profile-card .card-body .profile-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  margin-bottom: 8px;
+}
+
+.profile-component .profile-card .card-body .profile-data .data-item {
+  text-align: center;
+}
+
+.profile-component .profile-card .card-body .profile-data .data-item h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+  margin-bottom: 4px;
+}
+
+.profile-component .profile-card .card-body .profile-data .data-item p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6a6f81;
+  margin-top: 0px;
+}
+/*# sourceMappingURL=style.css.map */

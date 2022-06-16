@@ -1,0 +1,117 @@
+// style variables
+$dark-cyan: hsl(185, 75%, 39%);
+$dark-blue: hsl(229, 23%, 23%);
+$grayish-blue: hsl(227, 10%, 46%);
+$dark-gray: hsl(0, 0%, 59%);
+$white: hsl(0, 0%, 100%);
+// font 
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+// file data 
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  background-color: $dark-blue;
+  color: $white;
+  padding: 8px 0;
+
+  a {
+    color: $dark-cyan;
+    font-weight: 700;
+  }
+}
+
+// challenge section
+.profile-component {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark-cyan;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+
+  .profile-card {
+    background-color: $white;
+    border-radius: 12px;
+
+    .cover-img {
+      border-radius: 12px 12px 0 0;
+      width: 340px;
+    }
+
+    .card-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .profile-img {
+        margin-top: -50px;
+        border-radius: 50%;
+        border: 5px solid $white;
+        width: 100px;
+        height: 100px;
+      }
+
+      .user-data {
+        font-size: 18px;
+        font-weight: 700;
+        color: $dark-blue;
+
+        span {
+          font-weight: 400;
+          color: $grayish-blue;
+          margin-left: 12px;
+        }
+      }
+
+      .address {
+        font-weight: 400;
+        color: $grayish-blue;
+        margin-top: 0px;
+      }
+
+      .divider {
+        width: 100%;
+        margin: 20px 0;
+        border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.35);
+
+      }
+
+      .profile-data {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        margin-bottom: 8px;
+
+        .data-item {
+          text-align: center;
+
+          h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: $dark-blue;
+            margin-bottom: 4px;
+          }
+
+          p {
+            font-size: 12px;
+            font-weight: 400;
+            color: $grayish-blue;
+            margin-top: 0px;
+          }
+        }
+      }
+    }
+  }
+}
