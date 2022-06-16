@@ -44,7 +44,7 @@ body {
 
 .profile-component .profile-card .cover-img {
   border-radius: 12px 12px 0 0;
-  width: 340px;
+  width: 320px;
 }
 
 .profile-component .profile-card .card-body {
@@ -64,17 +64,18 @@ body {
 }
 
 .profile-component .profile-card .card-body .profile-img {
-  margin-top: -50px;
+  margin-top: -40px;
   border-radius: 50%;
   border: 5px solid white;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .profile-component .profile-card .card-body .user-data {
   font-size: 18px;
   font-weight: 700;
   color: #2d3248;
+  margin-top: 20px;
 }
 
 .profile-component .profile-card .card-body .user-data span {
@@ -91,7 +92,7 @@ body {
 
 .profile-component .profile-card .card-body .divider {
   width: 100%;
-  margin: 20px 0;
+  margin: 4px 0;
   border-top: 1px solid rgba(150, 150, 150, 0.35);
 }
 
